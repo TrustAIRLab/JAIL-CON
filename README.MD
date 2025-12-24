@@ -75,7 +75,7 @@ Then there will be a json file with the file name starting with 'Safety_GPT-4o_x
 python Eval_Results.py \
 --separator $separator \
 ```
-For demonstration, we have provided the main results (for ```$separator=A```) in directory ```/Dataset/```.
+For demonstration, we have provided the main results (for ```$separator=A```).
 
 Then, the results will be given as
 ```
