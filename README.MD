@@ -1,6 +1,6 @@
 # $\texttt{JAIL-CON}$
 
-This is the official repository of the paper "Adjacent Words, Divergent Intents: Jailbreaking Large Language Models via Task Concurrency"@NeurIPS'25.
+This is the official repository of the paper \["Adjacent Words, Divergent Intents: Jailbreaking Large Language Models via Task Concurrency"@NeurIPS'25\](https://arxiv.org/abs/2510.21189).
 
 *Be careful! This repository may contain potentially unsafe information. User discretion is advised.*
 
