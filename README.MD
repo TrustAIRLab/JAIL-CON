@@ -1,13 +1,10 @@
 # $\texttt{JAIL-CON}$
 
-
-This is the anonymous repository of the submission "Adjacent Words, Divergent Intents: Jailbreaking Large Language Models via Task Concurrency."
+This is the official repository of the paper "Adjacent Words, Divergent Intents: Jailbreaking Large Language Models via Task Concurrency"@NeurIPS'25.
 
 *Be careful! This repository may contain potentially unsafe information. User discretion is advised.*
 
 ## How to use this repository?
-
-Too long to read, would like to see the attack results directly? Please see [Step D](#d-show-evaluation-results).
 
 ### A. Install and set the ENV
 1. Clone this repository.
@@ -73,7 +70,7 @@ python Eval.py \
 
 Then there will be a json file with the file name starting with 'Safety_GPT-4o_xx'. The 'Original_Safety' in the file determines whether an answer is successful, and the 'Moderation_Flag' determines whether the answer will be filtered by the guardrail.
 
-### D. Show Evaluation Results
+### D. Show Evaluation Results (After Running Above Steps)
 ```
 python Eval_Results.py \
 --separator $separator \
@@ -89,3 +86,4 @@ LLM: LLaMA3-8B, ASR-O: 1.0, Filter_Rate: 0.44, ASR-E: 0.56
 LLM: Mistral-7B, ASR-O: 0.96, Filter_Rate: 0.3541666666666667, ASR-E: 0.6199999999999999
 LLM: Vicuna-13B, ASR-O: 0.97, Filter_Rate: 0.30927835051546393, ASR-E: 0.6699999999999999
 ```
+
