@@ -87,3 +87,14 @@ LLM: Mistral-7B, ASR-O: 0.96, Filter_Rate: 0.3541666666666667, ASR-E: 0.61999999
 LLM: Vicuna-13B, ASR-O: 0.97, Filter_Rate: 0.30927835051546393, ASR-E: 0.6699999999999999
 ```
 
+### Citation
+If you find this useful in your research, please consider citing:
+
+```bibtex
+@inproceedings{JLBZ25,
+  author = {Yukun Jiang and Mingjie Li and Michael Backes and Yang Zhang},
+  title = {{Adjacent Words, Divergent Intents: Jailbreaking Large Language Models via Task Concurrency}},
+  booktitle = {{Annual Conference on Neural Information Processing Systems (NeurIPS)}},
+  year = {2025}
+}
+```
